@@ -1,7 +1,9 @@
 package main
 
 import (
-	local "github.com/bradmanfordson/go-go-gadget-golang/pkg"
+	local "github.com/bradmanfordson/go-go-gadget-golang/src/pkg"
 )
 
-local.Print("hello?")
+func main() {
+	local.Print("hello?")
+}
